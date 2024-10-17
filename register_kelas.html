@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Kelas - Kotoba</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Kotoba</a>
+            </div>
+            <nav class="nav">
+                <ul> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="daftar_kelas.html">Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="class-registration">
+            <div class="container">
+                <h2 class="mt-10">Formulir Pendaftaran Kelas Bahasa Jepang</h2>
+                <p>Silakan isi formulir di bawah ini untuk mendaftar kelas yang sesuai dengan level dan kebutuhan Anda.</p>
+                
+                <form action="#" method="POST" class="form-registration">
+
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="course">Pilih Kelas:</label>
+                        <select id="course" name="course" required>
+                            <option value="" disabled selected>Pilih Kelas</option>
+                            <option value="basic">Bahasa Jepang Dasar</option>
+                            <option value="intermediate">Bahasa Jepang Menengah</option>
+                            <option value="advanced">Bahasa Jepang Lanjutan</option>
+                        </select>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="message">Pesan Tambahan (Opsional):</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+    
+                    <div class="form-group">
+                        <button type="submit" class="submit-button">Daftar Sekarang</button>
+                    </div>
+                </form>
+    
+                <div class="content-below-form">
+                    <p>Pastikan semua informasi yang Anda masukkan sudah benar sebelum mengirim formulir ini.</p>
+                    <p>Jika Anda memiliki pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami melalui halaman kontak.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="footer-info">
+                <p>Kotoba - Belajar Bahasa Jepang © 2024</p>
+            </div>
+            <div class="footer-social">
+                <ul>
+                    <li><a href="https://www.facebook.com" target="_blank"><img src="assets/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank"><img src="assets/twitter.png" alt="Twitter"></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><img src="assets/instagram.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
